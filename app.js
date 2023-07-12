@@ -84,6 +84,13 @@ app.use(function (req, res) {
   res.status(200).json({
     status: true,
     messages: "Api running well",
+    development: {
+      username: process.env.DB_USER,
+      password: process.env.DB_PASS,
+      database: process.env.DB_NAME,
+      host: process.env.DB_HOST,
+      dialect: process.env.DB_TYPE,
+    },
   });
 });
 
