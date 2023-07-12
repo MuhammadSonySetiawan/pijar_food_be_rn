@@ -16,10 +16,6 @@ module.exports = {
       .then((result) => {
         if (!result) throw new Error("User not existt");
 
-        if (result && result.dataValues.is_login) {
-          throw new Error("User already login");
-        }
-
         return result;
       })
       .then((result) => {
