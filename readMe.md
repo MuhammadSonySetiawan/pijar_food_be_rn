@@ -31,7 +31,7 @@ nodemon app
 ```
 ## Related Project
 
-- [`Frontend Recipe Food`]https://github.com/MuhammadSonySetiawan/pijar-food-rn-fe)
+- [`Frontend Recipe Food`](https://github.com/MuhammadSonySetiawan/pijar-food-rn-fe)
 
 - [`Backend Recipe Food`](https://github.com/MuhammadSonySetiawan/pijar-food-be)
 
