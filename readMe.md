@@ -1,48 +1,31 @@
-# Express Starterkit
+# pijar_food_be_rn App Back-End
 
-## Install
+Backend for pijar food be rn App built with Express and Postgres.
 
-how to install in yout local, you can clone this repo with
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-``` git clone https://github.com/kubi-codes/express-starterkit.git ```
+pijar food be rn App Back-End is an API for cloths e-commerce.
 
-or you can click <b>use this template</b> and customize with your project.
+- CRUD Products, Users, and Orders
+- Authentication and Authorization
+- Validation
 
-## Setup
+## Tech
 
-Create your database and edit your .env.example to .env, after that change the value with your credential, example:
+pijar food be rn App Back-End uses a number of open source projects to work properly:
+
+- [node.js](https://nodejs.org/) - evented I/O for the backend
+- [Express](https://expressjs.com/) - fast node.js network app framework [@tjholowaychuk]
+- [PostgreSQL](https://www.postgresql.org/) - the powerfull database
+
+## Installation
+
+pijar food be rn App Back-End requires [Node.js](https://nodejs.org/) v10+ to run.
+
+```sh
+cd blanja-app-be
+npm i
+nodemon app
 ```
-APP_PORT=5000
-APP_SECRET_KEY=130a62774cfb6bd2ac7f05f08766f94a
-APP_DEBUG=false
-
-DB_HOST=localhost
-DB_NAME=express_starterkit
-DB_USER=root
-DB_PASS=
-DB_TYPE=mysql
-```
-
-if you want REDIS Caching you can add on bottom env file like this
-```
-APP_PORT=5000
-APP_SECRET_KEY=130a62774cfb6bd2ac7f05f08766f94a
-APP_DEBUG=false
-
-DB_HOST=localhost
-DB_NAME=express_starterkit
-DB_USER=root
-DB_PASS=
-DB_TYPE=mysql
-
-REDIS=true
-```
-
-after that run this command
-
-```
-npm install
-sequelize db:migrate
-nodemon
-```
-Thats all, you can use and customize this starterkit
