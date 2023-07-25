@@ -25,7 +25,7 @@ pijar food be rn App Back-End uses a number of open source projects to work prop
 pijar food be rn App Back-End requires [Node.js](https://nodejs.org/) v10+ to run.
 
 ```sh
-cd blanja-app-be
+cd pijar_food_be_rn
 npm i
 nodemon app
 ```
