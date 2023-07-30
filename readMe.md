@@ -35,6 +35,6 @@ nodemon app
 
 - [`Backend Recipe Food`](https://github.com/MuhammadSonySetiawan/pijar_food_be_rn)
 
-- [`Demo Recipe Food Frontend`]()
+- [`Demo Recipe Food Frontend`](https://github.com/MuhammadSonySetiawan/pijar-food-rn-fe/releases/tag/1.0.0)
 
 - [`Demo Recipe Food Backend`](https://pijar-food-be.onrender.com/v1)
